@@ -1,0 +1,9 @@
+language: python
+
+python:
+    - 3.8
+install:
+  - pip install -r requirements.txt
+  - pip install black
+before_script:
+  - python manage.py migrate
