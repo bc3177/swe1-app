@@ -2,3 +2,8 @@ gunicorn
 django-heroku
 numpy
 pandas
+black
+flake8
+coverage
+coveralls
+PyYAML
